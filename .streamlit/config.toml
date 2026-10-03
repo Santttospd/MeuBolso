@@ -1,10 +1,20 @@
+# Cada pessoa escolhe o tema no menu ⋮ (System, Light ou Dark).
+# A escolha fica salva no navegador de cada um.
+
 [theme]
-base = "dark"
+font = "sans serif"
+
+[theme.light]
+primaryColor = "#16A34A"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#E2E8F0"
+textColor = "#0F172A"
+
+[theme.dark]
 primaryColor = "#22C55E"
 backgroundColor = "#0F172A"
 secondaryBackgroundColor = "#1E293B"
 textColor = "#E2E8F0"
-font = "sans serif"
 
 [client]
-toolbarMode = "minimal"
+toolbarMode = "viewer"
