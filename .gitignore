@@ -1,0 +1,12 @@
+# Segredos e dados locais: nunca publicar
+.streamlit/secrets.toml
+config.yaml
+meu_bolso.db
+gastos.csv
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
